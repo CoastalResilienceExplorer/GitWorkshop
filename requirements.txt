@@ -1,0 +1,17 @@
+xarray
+pandas
+geopandas
+rioxarray
+rasterio
+h5netcdf
+matplotlib
+flask
+fastapi
+google-cloud-storage
+pytest
+s2sphere
+fastparquet
+pyarrow
+fsspec
+gcsfs
+pytest
