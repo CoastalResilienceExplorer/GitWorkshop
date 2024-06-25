@@ -15,5 +15,8 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Run Tests
-      run: make run_tests
+      env:
+        GS_SECRET_ACCESS_KEY: ${{ secrets.GS_SECRET_ACCESS_KEY }}
+        GS_ACCESS_KEY_ID: ${{ secrets.GS_ACCESS_KEY_ID }}
+      run: make run_tests_ci
 
